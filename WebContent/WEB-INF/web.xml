@@ -9,6 +9,13 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
+    <jsp-config>  
+    <taglib>  
+        <taglib-uri>/tags/function</taglib-uri>  
+        <taglib-location>/WEB-INF/tags/function.tld</taglib-location>  
+    </taglib>  
+  </jsp-config> 
   <servlet>
     <description></description>
     <display-name>BookServlet</display-name>
